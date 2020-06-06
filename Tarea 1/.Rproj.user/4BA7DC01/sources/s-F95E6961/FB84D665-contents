@@ -1,0 +1,39 @@
+---
+title: "R Notebook"
+output: rmarkdown::github_document
+---
+
+## Vectors in R
+
+### Crear vectores numericos en R, ejemplo
+Se crean los vectores con el comando `c()`. Y un vector es una *coleccion* de **elementos**
+```{r}
+a <- 12:25
+b <-c(11, a, 13)
+b
+```
+
+### Ufunc examples
+```{r}
+mean(b)
+sum(b)
+class(b)
+typeof(b)
+length(b)
+```
+
+### Vectores texto y numerico
+
+*Puedo pasar valores numericos a texto pero no al reves. Ej.*
+```{r}
+c(b, FALSE, 'Marisol')
+c <-c('Hello', 'World')
+```
+
+# Simulation
+## Ejercicio 1 - Tirar un dado 25 veces y ver cual fue el resultado de cada vez
+```{r}
+d <- (1:6)
+sample(d,25,replace=T,prob=NULL)
+```
+
