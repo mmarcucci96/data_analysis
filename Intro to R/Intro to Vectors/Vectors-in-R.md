@@ -50,7 +50,7 @@ length(b)
 
 ### Vectores texto y numerico
 
-*puedo pasar valores numericos a texto pero no al reves. Ej.*
+*Puedo pasar valores numericos a texto pero no al reves. Ej.*
 
 ``` r
 c(b, FALSE, 'Marisol')
@@ -73,4 +73,4 @@ d <- (1:6)
 sample(d,25,replace=T,prob=NULL)
 ```
 
-    ##  [1] 3 2 2 2 2 5 6 5 5 1 1 4 1 3 2 2 4 4 1 3 2 5 6 2 4
+    ##  [1] 6 2 4 5 1 5 4 6 2 2 1 4 2 2 5 3 2 6 4 5 1 5 2 5 1
