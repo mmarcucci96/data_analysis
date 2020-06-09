@@ -1,0 +1,18 @@
+---
+title: "Assignment 1 Markdown"
+output: pdf_document
+---
+```{r}
+#Assignment 1
+
+##1. A vector in R is the essence of R. It is the simplest type of data structure and is a sequence of data elements of the same data type.
+##i.e of a numerical vector c(2,3,8,0)
+
+##2. Some applications for boolean vectors in R vary from answering simple True or False questions to conditioning certain vectors in order to achieve and delimit the answer needed.
+
+##3. Rank of a vector: defined as the maximum number of linearly independent column vectors in the matrix.
+
+##4. Some applications of the sample function include analyzing statistical problems. Such as gathering a sample of the population for testing.
+
+```
+
