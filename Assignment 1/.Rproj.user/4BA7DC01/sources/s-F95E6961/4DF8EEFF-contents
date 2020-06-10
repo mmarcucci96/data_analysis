@@ -34,7 +34,7 @@ min(temp[1:3], temp[8:10], temp[12])
 
 ##Excercise 3
 
-coin <-c('1','2')  
+coin <-c('H','T')  
 bias <-c(1/3, 2/3)
 sample(coin, 15, replace = TRUE, prob = bias)
 

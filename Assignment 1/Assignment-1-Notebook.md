@@ -49,3 +49,31 @@ mean(temp[temp>26])
     ## [1] 27
 
 ### The average temperature when the temperature is greater than 26º celsius.
+
+``` r
+mean(25:26)
+```
+
+    ## [1] 25.5
+
+### Average temperature when the temperature is between 25º and 26º
+
+``` r
+min(temp[1:3], temp[8:10], temp[12])
+```
+
+    ## [1] 24
+
+### The minimum temperature between January, February, March, August,September,October and December
+
+## Excercise 3
+
+``` r
+coin <-c('1','2')  
+bias <-c(1/3, 2/3)
+sample(coin, 15, replace = TRUE, prob = bias)
+```
+
+    ##  [1] "1" "2" "1" "2" "1" "2" "2" "1" "2" "2" "2" "1" "2" "2" "1"
+
+## Excercise 4
