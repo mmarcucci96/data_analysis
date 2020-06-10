@@ -3,7 +3,7 @@
     "path": "~/Desktop/GitHub/data_analysis/Assignment 1/Sript Assignment 1.R",
     "project_path": "Sript Assignment 1.R",
     "type": "r_source",
-    "hash": "0",
+    "hash": "725976412",
     "contents": "",
     "dirty": false,
     "created": 1591743626445.0,
@@ -11,15 +11,15 @@
     "relative_order": 2,
     "properties": {
         "tempName": "Untitled2",
-        "cursorPosition": "31,0",
-        "scrollLine": "13"
+        "cursorPosition": "36,0",
+        "scrollLine": "16"
     },
     "folds": "",
-    "lastKnownWriteTime": 1591745634,
+    "lastKnownWriteTime": 1591747919,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1591745634384,
+    "last_content_update": 1591747919926,
     "read_only": false,
     "read_only_alternatives": []
 }
