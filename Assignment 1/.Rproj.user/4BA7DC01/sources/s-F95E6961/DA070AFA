@@ -3,7 +3,7 @@
     "path": "~/Desktop/GitHub/data_analysis/Assignment 1/Assignment 1 Notebook.Rmd",
     "project_path": "Assignment 1 Notebook.Rmd",
     "type": "r_markdown",
-    "hash": "1545838365",
+    "hash": "364752252",
     "contents": "",
     "dirty": false,
     "created": 1591743634863.0,
@@ -12,15 +12,15 @@
     "properties": {
         "tempName": "Untitled3",
         "chunk_output_type": "inline",
-        "cursorPosition": "53,45",
-        "scrollLine": "40"
+        "cursorPosition": "69,0",
+        "scrollLine": "55"
     },
     "folds": "",
-    "lastKnownWriteTime": 1591748223,
+    "lastKnownWriteTime": 1591919528,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1591748223477,
+    "last_content_update": 1591919528259,
     "read_only": false,
     "read_only_alternatives": []
 }

@@ -38,3 +38,13 @@ coin <-c('H','T')
 bias <-c(1/3, 2/3)
 sample(coin, 15, replace = TRUE, prob = bias)
 
+## Excercise 4
+
+paint <- c('White','PureWhite','ChantillyLace','ChalkWhite','Ivory','Yellow','Green','Blue','Navy','PalladianBlue')
+length(paint)
+
+paint <- c('White','PureWhite','ChantillyLace','ChalkWhite','Ivory','Yellow','Green','Blue','Navy','PalladianBlue')
+prob <-c(9/82, 9/82, 9/82, 9/82, 0.12, 9/82, 9/82, 9/82, 9/82, 9/82)
+sample(paint, 15, replace = TRUE, prob = prob)
+View(table(sample(paint, 15, replace = TRUE, prob = prob)))
+
