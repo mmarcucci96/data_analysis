@@ -77,3 +77,16 @@ sample(coin, 15, replace = TRUE, prob = bias)
     ##  [1] "1" "2" "1" "2" "1" "2" "2" "1" "2" "2" "2" "1" "2" "2" "1"
 
 ## Excercise 4
+```{r}
+paint <- c('White','PureWhite','ChantillyLace','ChalkWhite','Ivory','Yellow','Green','Blue','Navy','PalladianBlue')
+length(paint)
+```
+### The couple has 10 potential colors to choose from.
+
+```{r}
+paint <- c('White','PureWhite','ChantillyLace','ChalkWhite','Ivory','Yellow','Green','Blue','Navy','PalladianBlue')
+prob <-c(9/82, 9/82, 9/82, 9/82, 0.12, 9/82, 9/82, 9/82, 9/82, 9/82)
+sample(paint, 15, replace = TRUE, prob = prob)
+View(table(sample(paint, 15, replace = TRUE, prob = prob)))
+```
+
