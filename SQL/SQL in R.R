@@ -10,7 +10,10 @@ install.packages('RSQLite')
 sqldf('select name, publisher from heroes')
 
 #Ejercicio 2: Obtener las casas publicadoras de la tabla heroes.
-sqldf('SELECT DISTINCT publisher FROM heroes')
+sqldf('
+      SELECT 
+      DISTINCT publisher 
+      FROM heroes')
 
 #Ejercicio 3: Obtener una cuenta de las distintas casas publicadoras de la tabla heroes.
 sqldf('
@@ -49,3 +52,4 @@ sqldf("
       FROM heroes
       WHERE `Eye color` = 'blue' OR `Eye color` = 'red' 
         ")
+
